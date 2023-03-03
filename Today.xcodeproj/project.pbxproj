@@ -19,6 +19,8 @@
 		0D2AD99B29845F0A002677CA /* ReminderDoneButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2AD99A29845F0A002677CA /* ReminderDoneButton.swift */; };
 		0D2AD99D29845F5A002677CA /* ReminderListViewController+Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2AD99C29845F5A002677CA /* ReminderListViewController+Actions.swift */; };
 		0D8DD3CA298472180083F6C9 /* ReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8DD3C9298472180083F6C9 /* ReminderViewController.swift */; };
+		0DABB2ED29B29AC6009FFCFD /* ReminderViewController+Row.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DABB2EC29B29AC6009FFCFD /* ReminderViewController+Row.swift .swift */; };
+		0DABB2EF29B2A0CD009FFCFD /* ReminderViewController+Section.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DABB2EE29B2A0CD009FFCFD /* ReminderViewController+Section.swift .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		0D2AD99A29845F0A002677CA /* ReminderDoneButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDoneButton.swift; sourceTree = "<group>"; };
 		0D2AD99C29845F5A002677CA /* ReminderListViewController+Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderListViewController+Actions.swift"; sourceTree = "<group>"; };
 		0D8DD3C9298472180083F6C9 /* ReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderViewController.swift; sourceTree = "<group>"; };
+		0DABB2EC29B29AC6009FFCFD /* ReminderViewController+Row.swift .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderViewController+Row.swift .swift"; sourceTree = "<group>"; };
+		0DABB2EE29B2A0CD009FFCFD /* ReminderViewController+Section.swift .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderViewController+Section.swift .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,12 +75,12 @@
 				0D2AD99529844FAC002677CA /* Models */,
 				0D2AD97A29844F7C002677CA /* AppDelegate.swift */,
 				0D2AD97C29844F7C002677CA /* SceneDelegate.swift */,
+				0DABB2EB29B29A30009FFCFD /* DetailViewController */,
 				0D2AD99029844FA4002677CA /* ListViewController */,
 				0D2AD98E29844F9B002677CA /* Main.storyboard */,
 				0D2AD98329844F7D002677CA /* Assets.xcassets */,
 				0D2AD98529844F7D002677CA /* LaunchScreen.storyboard */,
 				0D2AD98829844F7D002677CA /* Info.plist */,
-				0D8DD3C9298472180083F6C9 /* ReminderViewController.swift */,
 			);
 			path = Today;
 			sourceTree = "<group>";
@@ -99,6 +103,16 @@
 				0D2AD99C29845F5A002677CA /* ReminderListViewController+Actions.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		0DABB2EB29B29A30009FFCFD /* DetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0D8DD3C9298472180083F6C9 /* ReminderViewController.swift */,
+				0DABB2EC29B29AC6009FFCFD /* ReminderViewController+Row.swift .swift */,
+				0DABB2EE29B2A0CD009FFCFD /* ReminderViewController+Section.swift .swift */,
+			);
+			path = DetailViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,9 +187,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D2AD99D29845F5A002677CA /* ReminderListViewController+Actions.swift in Sources */,
+				0DABB2ED29B29AC6009FFCFD /* ReminderViewController+Row.swift .swift in Sources */,
 				0D2AD99429844FA4002677CA /* ReminderListViewController.swift in Sources */,
 				0D2AD97B29844F7C002677CA /* AppDelegate.swift in Sources */,
 				0D2AD97D29844F7C002677CA /* SceneDelegate.swift in Sources */,
+				0DABB2EF29B2A0CD009FFCFD /* ReminderViewController+Section.swift .swift in Sources */,
 				0D2AD99929844FB8002677CA /* Date+Today.swift in Sources */,
 				0D8DD3CA298472180083F6C9 /* ReminderViewController.swift in Sources */,
 				0D2AD99329844FA4002677CA /* eminderListViewController+DataSource.swift in Sources */,
